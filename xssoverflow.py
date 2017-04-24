@@ -1,6 +1,6 @@
 #!/usr/bin/python2
 # -*- coding: utf-8 -*-
-#c0ded by geek0
+#c0ded by xavi_py
 #u5ing infodox pty shell
 import subprocess, base64, sys, urllib
 import argparse
@@ -16,7 +16,7 @@ print """
  ▀                                     █▐            ▀      ▀                 ▀ ▀   
                                        ▐                                            
                                                               (CVE-2015-3440)
-                                                                  geek0 (C)
+                                                                 @xavi_py (C)
 """
 
 parser = argparse.ArgumentParser()
